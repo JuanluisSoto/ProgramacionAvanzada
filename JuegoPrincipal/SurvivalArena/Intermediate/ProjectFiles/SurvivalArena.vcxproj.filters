@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SurvivalArena.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SurvivalArena.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SurvivalArenaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SurvivalArena">
+      <UniqueIdentifier>{1164E4EA-9502-39D6-BBA2-A43A7F99216A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SurvivalArena\SurvivalArena.Build.cs">
+      <Filter>Source\SurvivalArena</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SurvivalArena\SurvivalArena.cpp">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\SurvivalArena.h">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\SurvivalArenaCharacter.cpp">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\SurvivalArenaCharacter.h">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\SurvivalArenaGameMode.cpp">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\SurvivalArenaGameMode.h">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\SurvivalArenaPlayerController.cpp">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\SurvivalArenaPlayerController.h">
+      <Filter>Source\SurvivalArena</Filter>
+    </ClInclude>
+    <Filter Include="Source\SurvivalArena\Variant_Strategy">
+      <UniqueIdentifier>{01A55C43-1E6D-3A66-AC53-9724EC528DF9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyGameMode.cpp">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyGameMode.h">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyPawn.cpp">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyPawn.h">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyPlayerController.cpp">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyPlayerController.h">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyUnit.cpp">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_Strategy\StrategyUnit.h">
+      <Filter>Source\SurvivalArena\Variant_Strategy</Filter>
+    </ClInclude>
+    <Filter Include="Source\SurvivalArena\Variant_Strategy\UI">
+      <UniqueIdentifier>{FEAF758F-7CCB-32F1-841A-48E29FBE331D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_Strategy\UI\StrategyHUD.cpp">
+      <Filter>Source\SurvivalArena\Variant_Strategy\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_Strategy\UI\StrategyHUD.h">
+      <Filter>Source\SurvivalArena\Variant_Strategy\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_Strategy\UI\StrategyUI.cpp">
+      <Filter>Source\SurvivalArena\Variant_Strategy\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_Strategy\UI\StrategyUI.h">
+      <Filter>Source\SurvivalArena\Variant_Strategy\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SurvivalArena\Variant_TwinStick">
+      <UniqueIdentifier>{7F5E35D7-F308-3D26-B7C8-371BBC39F3C8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickCharacter.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickCharacter.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickGameMode.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickGameMode.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickPlayerController.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickPlayerController.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClInclude>
+    <Filter Include="Source\SurvivalArena\Variant_TwinStick\AI">
+      <UniqueIdentifier>{46B9830F-165F-317E-9A30-593651DD0B68}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickAIController.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickAIController.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickNPC.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickNPC.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickNPCDestruction.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickNPCDestruction.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickSpawner.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickSpawner.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickStateTreeUtility.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\AI\TwinStickStateTreeUtility.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SurvivalArena\Variant_TwinStick\Gameplay">
+      <UniqueIdentifier>{03884333-1F26-33FA-87E8-2428A2634DDC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickAoEAttack.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickAoEAttack.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickPickup.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickPickup.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickProjectile.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickProjectile.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\SurvivalArena\Variant_TwinStick\UI">
+      <UniqueIdentifier>{18615D19-65F2-33FF-981F-3D91EC6F89D1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\UI\TwinStickUI.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\UI\TwinStickUI.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

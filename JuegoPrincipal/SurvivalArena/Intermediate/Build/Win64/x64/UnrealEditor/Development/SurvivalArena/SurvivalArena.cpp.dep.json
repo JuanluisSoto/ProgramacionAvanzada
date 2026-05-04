@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\survivalarena.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\x64\\survivalarenaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\survivalarena\\definitions.survivalarena.h",
+            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\survivalarena.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

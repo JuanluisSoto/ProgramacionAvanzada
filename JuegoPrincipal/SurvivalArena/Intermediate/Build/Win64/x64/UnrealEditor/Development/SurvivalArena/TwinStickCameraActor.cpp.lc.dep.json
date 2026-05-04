@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\variant_twinstick\\twinstickcameraactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\x64\\survivalarenaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\survivalarena\\definitions.survivalarena.h",
+            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\variant_twinstick\\twinstickcameraactor.h",
+            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\unrealeditor\\inc\\survivalarena\\uht\\twinstickcameraactor.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

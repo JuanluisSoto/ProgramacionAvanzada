@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickCameraActor.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickWeaponPickup.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickPowerUp.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickPlayerController.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/AI/BP_TwinStickSpawner.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/MG/4074ZCAZT1JIA3P0T1XG52.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/HP/BG1KPCLJ7BJSWKJX4CV059.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/TopDown/Lvl_TopDown.umap"
+			]
+		}
+	]
+}
