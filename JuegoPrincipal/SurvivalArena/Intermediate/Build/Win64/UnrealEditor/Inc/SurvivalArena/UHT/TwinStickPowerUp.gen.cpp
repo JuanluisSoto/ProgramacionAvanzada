@@ -262,7 +262,7 @@ ATwinStickPowerUp::~ATwinStickPowerUp() {}
 // ********** End Class ATwinStickPowerUp **********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics
+struct Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EPowerUpType_StaticEnum, TEXT("EPowerUpType"), &Z_Registration_Info_UEnum_EPowerUpType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4290542437U) },
@@ -271,10 +271,10 @@ struct Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_un
 		{ Z_Construct_UClass_ATwinStickPowerUp, ATwinStickPowerUp::StaticClass, TEXT("ATwinStickPowerUp"), &Z_Registration_Info_UClass_ATwinStickPowerUp, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATwinStickPowerUp), 1017611157U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_623284340(TEXT("/Script/SurvivalArena"),
-	Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_623284340(TEXT("/Script/SurvivalArena"),
+	Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickPowerUp_h__Script_SurvivalArena_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

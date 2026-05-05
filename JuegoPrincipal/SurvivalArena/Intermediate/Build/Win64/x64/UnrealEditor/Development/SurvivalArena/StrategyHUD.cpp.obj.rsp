@@ -1,13 +1,12 @@
-"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Source/SurvivalArena/Variant_Strategy/UI/StrategyHUD.cpp"
-@"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/SurvivalArena.Shared.rsp"
-/FI"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/SurvivalArenaEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/Definitions.SurvivalArena.h"
-/Yu"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/SurvivalArenaEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/SurvivalArenaEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/StrategyHUD.cpp.obj"
-/experimental:log "C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/StrategyHUD.cpp.sarif"
-/sourceDependencies "C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/StrategyHUD.cpp.dep.json"
-/d2ssa-cfg-question-
+"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Source/SurvivalArena/Variant_Strategy/UI/StrategyHUD.cpp"
+@"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/SurvivalArena.Shared.rsp"
+/FI"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/SurvivalArenaEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/Definitions.SurvivalArena.h"
+/Yu"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/SurvivalArenaEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/SurvivalArenaEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/StrategyHUD.cpp.obj"
+/experimental:log "C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/StrategyHUD.cpp.sarif"
+/sourceDependencies "C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Intermediate/Build/Win64/x64/UnrealEditor/Development/SurvivalArena/StrategyHUD.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

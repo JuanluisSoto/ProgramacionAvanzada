@@ -19,13 +19,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct FHitResult;
 
 // ********** Begin Class ATwinStickProjectile *****************************************************
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnProjectileStop);
 
 
 SURVIVALARENA_API UClass* Z_Construct_UClass_ATwinStickProjectile_NoRegister();
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATwinStickProjectile(); \
 	friend struct Z_Construct_UClass_ATwinStickProjectile_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ATwinStickProjectile)
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATwinStickProjectile(ATwinStickProjectile&&) = delete; \
 	ATwinStickProjectile(const ATwinStickProjectile&) = delete; \
@@ -46,13 +46,13 @@ public: \
 	NO_API virtual ~ATwinStickProjectile();
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_16_PROLOG
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_GENERATED_BODY \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_16_PROLOG
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_INCLASS_NO_PURE_DECLS \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_ENHANCED_CONSTRUCTORS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,6 +62,6 @@ class ATwinStickProjectile;
 // ********** End Class ATwinStickProjectile *******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h
+#define CURRENT_FILE_ID FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_Gameplay_TwinStickProjectile_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
