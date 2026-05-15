@@ -177,14 +177,14 @@ ASurvivalArenaPlayerController::~ASurvivalArenaPlayerController() {}
 // ********** End Class ASurvivalArenaPlayerController *********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_Statics
+struct Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ASurvivalArenaPlayerController, ASurvivalArenaPlayerController::StaticClass, TEXT("ASurvivalArenaPlayerController"), &Z_Registration_Info_UClass_ASurvivalArenaPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASurvivalArenaPlayerController), 3591347257U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_3182831121(TEXT("/Script/SurvivalArena"),
-	Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_3182831121(TEXT("/Script/SurvivalArena"),
+	Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h__Script_SurvivalArena_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

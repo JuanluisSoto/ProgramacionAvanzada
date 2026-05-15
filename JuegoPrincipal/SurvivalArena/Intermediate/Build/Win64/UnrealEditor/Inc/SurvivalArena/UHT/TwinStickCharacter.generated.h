@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ATwinStickCharacter ******************************************************
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDoAoEAttack); \
 	DECLARE_FUNCTION(execDoShoot); \
 	DECLARE_FUNCTION(execDoDash); \
@@ -25,10 +25,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execDoMove);
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_CALLBACK_WRAPPERS
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_CALLBACK_WRAPPERS
 SURVIVALARENA_API UClass* Z_Construct_UClass_ATwinStickCharacter_NoRegister();
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATwinStickCharacter(); \
 	friend struct Z_Construct_UClass_ATwinStickCharacter_Statics; \
@@ -39,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(ATwinStickCharacter)
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATwinStickCharacter(ATwinStickCharacter&&) = delete; \
 	ATwinStickCharacter(const ATwinStickCharacter&) = delete; \
@@ -49,14 +49,14 @@ public: \
 	NO_API virtual ~ATwinStickCharacter();
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_25_PROLOG
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_GENERATED_BODY \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_25_PROLOG
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_CALLBACK_WRAPPERS \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_INCLASS_NO_PURE_DECLS \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_ENHANCED_CONSTRUCTORS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_CALLBACK_WRAPPERS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_INCLASS_NO_PURE_DECLS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,6 +66,6 @@ class ATwinStickCharacter;
 // ********** End Class ATwinStickCharacter ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h
+#define CURRENT_FILE_ID FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

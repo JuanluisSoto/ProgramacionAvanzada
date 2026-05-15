@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ASurvivalArenaPlayerController *******************************************
 SURVIVALARENA_API UClass* Z_Construct_UClass_ASurvivalArenaPlayerController_NoRegister();
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASurvivalArenaPlayerController(); \
 	friend struct Z_Construct_UClass_ASurvivalArenaPlayerController_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ASurvivalArenaPlayerController)
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASurvivalArenaPlayerController(ASurvivalArenaPlayerController&&) = delete; \
 	ASurvivalArenaPlayerController(const ASurvivalArenaPlayerController&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~ASurvivalArenaPlayerController();
 
 
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_20_PROLOG
-#define FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_GENERATED_BODY \
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_20_PROLOG
+#define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_INCLASS_NO_PURE_DECLS \
-	FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_ENHANCED_CONSTRUCTORS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class ASurvivalArenaPlayerController;
 // ********** End Class ASurvivalArenaPlayerController *********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_marta_OneDrive_Escritorio_Juego_unreal_unreal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h
+#define CURRENT_FILE_ID FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_SurvivalArenaPlayerController_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

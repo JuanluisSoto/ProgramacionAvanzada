@@ -1,18 +1,18 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\variant_twinstick\\gameplay\\twinstickaoeattack.cpp",
+        "Source": "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\source\\survivalarena\\variant_twinstick\\gameplay\\twinstickaoeattack.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\x64\\survivalarenaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\intermediate\\build\\win64\\x64\\survivalarenaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\survivalarena\\definitions.survivalarena.h",
-            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\variant_twinstick\\gameplay\\twinstickaoeattack.h",
-            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\unrealeditor\\inc\\survivalarena\\uht\\twinstickaoeattack.generated.h",
+            "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\survivalarena\\definitions.survivalarena.h",
+            "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\source\\survivalarena\\variant_twinstick\\gameplay\\twinstickaoeattack.h",
+            "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\intermediate\\build\\win64\\unrealeditor\\inc\\survivalarena\\uht\\twinstickaoeattack.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
-            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\source\\survivalarena\\variant_twinstick\\ai\\twinsticknpc.h",
+            "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\source\\survivalarena\\variant_twinstick\\ai\\twinsticknpc.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -22,7 +22,7 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "c:\\users\\marta\\onedrive\\escritorio\\juego unreal\\unreal\\survivalarena\\intermediate\\build\\win64\\unrealeditor\\inc\\survivalarena\\uht\\twinsticknpc.generated.h"
+            "c:\\users\\juan luis\\desktop\\programacionavanzada\\juegoprincipal\\survivalarena\\intermediate\\build\\win64\\unrealeditor\\inc\\survivalarena\\uht\\twinsticknpc.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
