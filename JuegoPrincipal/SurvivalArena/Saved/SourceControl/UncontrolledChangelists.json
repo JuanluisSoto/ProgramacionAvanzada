@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/WBP_MainMenu.uasset",
+				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/LVL_MainMenu.umap",
+				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/BP_TwinStickCharacterMainMenu.uasset",
+				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/BP_MainMenuGameMode.uasset",
+				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/__ExternalActors__/Variant_TwinStick/LVL_TwinStick/E/LQ/MB54T42VSFM3REBWVW5FLK.uasset",
+				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickGameMode.uasset",
 				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickCameraActor.uasset",
 				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickWeaponPickup.uasset",
 				"C:/Users/marta/OneDrive/Escritorio/Juego unreal/unreal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickPowerUp.uasset",
