@@ -17,6 +17,13 @@ void ATwinStickGameMode::BeginPlay()
 	UIWidget = CreateWidget<UTwinStickUI>(UGameplayStatics::GetPlayerController(GetWorld(), 0), UIWidgetClass);
 	UIWidget->AddToViewport(0);
 
+	//APlayerController* PC = GetWorld()->GetFirstPlayerController();
+	//if (PC)
+	//{
+	//	PC->bShowMouseCursor = false;
+	//	PC->SetInputMode(FInputModeGameOnly());
+	//}
+
 	// set up multiplayer and shared camera
 	SetupMultiplayerAndCamera();
 
