@@ -222,7 +222,7 @@ void ATwinStickCharacter::DoAim(float AxisX, float AxisY)
 	// hide the mouse cursor
 	if (PlayerController)
 	{
-		PlayerController->SetShowMouseCursor(false);
+		PlayerController->SetShowMouseCursor(true);
 	}
 
 	// are we on autofire cooldown?

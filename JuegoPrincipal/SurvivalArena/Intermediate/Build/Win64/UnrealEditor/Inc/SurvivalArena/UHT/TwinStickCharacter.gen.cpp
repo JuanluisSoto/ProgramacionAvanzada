@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickCharacter() {}
 
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -278,6 +279,63 @@ DEFINE_FUNCTION(ATwinStickCharacter::execDoShoot)
 }
 // ********** End Class ATwinStickCharacter Function DoShoot ***************************************
 
+// ********** Begin Class ATwinStickCharacter Function HandleDamage ********************************
+struct Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics
+{
+	struct TwinStickCharacter_eventHandleDamage_Parms
+	{
+		float Damage;
+		FVector DamageDirection;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Damage" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Applies collision impact to the player and reduces health */" },
+#endif
+		{ "ModuleRelativePath", "Variant_TwinStick/TwinStickCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Applies collision impact to the player and reduces health" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageDirection_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Damage;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_DamageDirection;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TwinStickCharacter_eventHandleDamage_Parms, Damage), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::NewProp_DamageDirection = { "DamageDirection", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TwinStickCharacter_eventHandleDamage_Parms, DamageDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageDirection_MetaData), NewProp_DamageDirection_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::NewProp_Damage,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::NewProp_DamageDirection,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ATwinStickCharacter, nullptr, "HandleDamage", Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::PropPointers), sizeof(Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::TwinStickCharacter_eventHandleDamage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::TwinStickCharacter_eventHandleDamage_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ATwinStickCharacter_HandleDamage()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATwinStickCharacter_HandleDamage_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ATwinStickCharacter::execHandleDamage)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Damage);
+	P_GET_STRUCT_REF(FVector,Z_Param_Out_DamageDirection);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->HandleDamage(Z_Param_Damage,Z_Param_Out_DamageDirection);
+	P_NATIVE_END;
+}
+// ********** End Class ATwinStickCharacter Function HandleDamage **********************************
+
 // ********** Begin Class ATwinStickCharacter ******************************************************
 void ATwinStickCharacter::StaticRegisterNativesATwinStickCharacter()
 {
@@ -288,6 +346,7 @@ void ATwinStickCharacter::StaticRegisterNativesATwinStickCharacter()
 		{ "DoDash", &ATwinStickCharacter::execDoDash },
 		{ "DoMove", &ATwinStickCharacter::execDoMove },
 		{ "DoShoot", &ATwinStickCharacter::execDoShoot },
+		{ "HandleDamage", &ATwinStickCharacter::execHandleDamage },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -716,6 +775,7 @@ struct Z_Construct_UClass_ATwinStickCharacter_Statics
 		{ &Z_Construct_UFunction_ATwinStickCharacter_DoDash, "DoDash" }, // 2186972799
 		{ &Z_Construct_UFunction_ATwinStickCharacter_DoMove, "DoMove" }, // 1482276527
 		{ &Z_Construct_UFunction_ATwinStickCharacter_DoShoot, "DoShoot" }, // 1640102484
+		{ &Z_Construct_UFunction_ATwinStickCharacter_HandleDamage, "HandleDamage" }, // 2484500092
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -828,10 +888,10 @@ ATwinStickCharacter::~ATwinStickCharacter() {}
 struct Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h__Script_SurvivalArena_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATwinStickCharacter, ATwinStickCharacter::StaticClass, TEXT("ATwinStickCharacter"), &Z_Registration_Info_UClass_ATwinStickCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATwinStickCharacter), 3892349986U) },
+		{ Z_Construct_UClass_ATwinStickCharacter, ATwinStickCharacter::StaticClass, TEXT("ATwinStickCharacter"), &Z_Registration_Info_UClass_ATwinStickCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATwinStickCharacter), 3746588396U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h__Script_SurvivalArena_2595763006(TEXT("/Script/SurvivalArena"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h__Script_SurvivalArena_3834847479(TEXT("/Script/SurvivalArena"),
 	Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h__Script_SurvivalArena_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h__Script_SurvivalArena_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

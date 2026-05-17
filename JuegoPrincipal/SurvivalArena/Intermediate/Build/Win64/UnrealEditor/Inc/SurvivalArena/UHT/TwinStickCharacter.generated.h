@@ -18,6 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ATwinStickCharacter ******************************************************
 #define FID_Users_Juan_Luis_Desktop_ProgramacionAvanzada_JuegoPrincipal_SurvivalArena_Source_SurvivalArena_Variant_TwinStick_TwinStickCharacter_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execHandleDamage); \
 	DECLARE_FUNCTION(execDoAoEAttack); \
 	DECLARE_FUNCTION(execDoShoot); \
 	DECLARE_FUNCTION(execDoDash); \
