@@ -11,6 +11,7 @@
     <None Include="..\..\Source\SurvivalArenaEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\SKILLS.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -104,6 +105,12 @@
     <Filter Include="Source\SurvivalArena\Variant_TwinStick">
       <UniqueIdentifier>{7F5E35D7-F308-3D26-B7C8-371BBC39F3C8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickCameraActor.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickCameraActor.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\TwinStickCharacter.cpp">
       <Filter>Source\SurvivalArena\Variant_TwinStick</Filter>
     </ClCompile>
@@ -170,10 +177,22 @@
     <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickPickup.h">
       <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickPowerUp.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickPowerUp.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickProjectile.cpp">
       <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickProjectile.h">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickWeaponPickup.cpp">
+      <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SurvivalArena\Variant_TwinStick\Gameplay\TwinStickWeaponPickup.h">
       <Filter>Source\SurvivalArena\Variant_TwinStick\Gameplay</Filter>
     </ClInclude>
     <Filter Include="Source\SurvivalArena\Variant_TwinStick\UI">

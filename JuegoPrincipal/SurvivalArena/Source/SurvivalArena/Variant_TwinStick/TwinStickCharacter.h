@@ -253,6 +253,7 @@ public:
 public:
 
 	/** Applies collision impact to the player and reduces health */
+	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void HandleDamage(float Damage, const FVector& DamageDirection);
 
 	/** Called when health reaches zero. Notifies controller and destroys character */
