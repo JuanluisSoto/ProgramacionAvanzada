@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/marta/OneDrive/Escritorio/PROGRA AVZ/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/Variant_TwinStick/Blueprints/BP_TwinStickCharacter.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/PROGRA AVZ/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/Variant_TwinStick/Blueprints/AI/BP_TwinStickNPC.uasset",
+				"C:/Users/marta/OneDrive/Escritorio/PROGRA AVZ/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/Variant_TwinStick/Blueprints/AI/BP_TwinStickNPCDestruction.uasset",
 				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/WBP_MainMenu.uasset",
 				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/LVL_MainMenu.umap",
 				"C:/Users/Juan Luis/Desktop/ProgramacionAvanzada/JuegoPrincipal/SurvivalArena/Content/MainMenu/BP_TwinStickCharacterMainMenu.uasset",
